@@ -1,7 +1,8 @@
 # Stimulus Reflex install
-# run 'bundle add stimulus_reflex'
-# run 'bundle exec rails stimulus_reflex:install'
-
+after_bundle do
+run 'bundle add stimulus_reflex'
+run 'bundle exec rails stimulus_reflex:install'
+end
 # tailwindcss
 run 'yarn add tailwindcss postcss autoprefixer'
 run 'mkdir app/javascript/stylesheets'
