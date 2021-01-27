@@ -2,7 +2,7 @@
 after_bundle do
 run 'bundle add stimulus_reflex'
 run 'bundle exec rails stimulus_reflex:install'
-end
+
 # tailwindcss
 run 'yarn add tailwindcss postcss autoprefixer'
 run 'mkdir app/javascript/stylesheets'
@@ -12,3 +12,4 @@ run 'curl -L https://raw.githubusercontent.com/directions-needed/rails-templates
 
 # View Component (reflex)
 run 'gem install view_component_reflex'
+end
