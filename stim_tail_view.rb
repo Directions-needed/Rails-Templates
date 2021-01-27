@@ -1,6 +1,6 @@
 # Stimulus Reflex install
-run 'bundle add stimulus_reflex'
-run 'bundle exec rails stimulus_reflex:install'
+# run 'bundle add stimulus_reflex'
+# run 'bundle exec rails stimulus_reflex:install'
 
 # tailwindcss
 run 'yarn add tailwindcss postcss autoprefixer'
